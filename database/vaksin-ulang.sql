@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 18 Mar 2023 pada 11.48
+-- Waktu pembuatan: 03 Apr 2023 pada 15.31
 -- Versi server: 10.4.27-MariaDB
 -- Versi PHP: 8.1.12
 
@@ -202,7 +202,8 @@ INSERT INTO `vaksinasis` (`id`, `penduduk_id`, `vaksin_id`, `lokasi_id`, `vaksin
 (6, 3, 8, 8, 3, '2023-03-17 07:48:39', '2023-03-17 07:48:39'),
 (7, 4, 5, 3, 2, '2023-03-17 07:48:48', '2023-03-17 07:48:48'),
 (8, 3, 3, 7, 4, '2023-03-17 07:49:01', '2023-03-17 07:49:01'),
-(9, 8, 3, 5, 1, '2023-03-17 09:27:22', '2023-03-17 09:27:22');
+(9, 8, 3, 5, 1, '2023-03-17 09:27:22', '2023-03-17 09:27:22'),
+(12, 7, 8, 7, 1, '2023-04-03 06:12:17', '2023-04-03 06:12:17');
 
 -- --------------------------------------------------------
 
@@ -320,7 +321,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT untuk tabel `penduduks`
 --
 ALTER TABLE `penduduks`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT untuk tabel `personal_access_tokens`
@@ -338,7 +339,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT untuk tabel `vaksinasis`
 --
 ALTER TABLE `vaksinasis`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT untuk tabel `vaksins`
