@@ -1,0 +1,5 @@
+1. Ekstrak Dulu
+2. Buat database dengan nama 'vaksin-ulang'
+3. Import isi database 'vaksin-ulang' menggunakan file 'vaksin-ulang.sql' di folder root ini
+4. Username : admin , password : admin
+5. Coba Fitur Masbro
