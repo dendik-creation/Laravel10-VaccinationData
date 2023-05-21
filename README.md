@@ -69,13 +69,18 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Instruction
 
 1. Clone and open this repository to your computer
-2. In terminal, run command composer install for install all dependencies
+2. Run this command for install all dependencies
 3. Copy .env.example file and rename to .env
+```
+composer install
+```
 4. open the .env file and change DB_DATABASE value to 'vaksin-ulang'
 5. import database in database folder
 6. Run command 
 ```
 php artisan key:generate
 ```
-9. Last, run command php artisan migrate for building the database
-10. Now you can run Laravel 10 use command php artisan serve
+```
+php artisan migrate
+```
+Now you can run Laravel 10 use command php artisan serve
